@@ -11,7 +11,7 @@ public class Principal {
 		String texto = JOptionPane.showInputDialog(null);
 		
 		//é criado uma classe que coordena a chamada mudando apenas o indice definido, 
-		//não necessitando alterar o nome da classe. 
+		//não necessitando alterar o nome da classe!
 		Mensagem mensagem = MensagemFactory.getMensagem(1);
 		mensagem.enviar(texto);
 
